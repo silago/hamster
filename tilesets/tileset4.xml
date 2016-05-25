@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="TileSet" subresource_count="5" version="2.1" version_name="Godot Engine v2.1.alpha.custom_build">
+<resource_file type="TileSet" subresource_count="6" version="2.1" version_name="Godot Engine v2.1.alpha.custom_build">
 	<ext_resource path="res://tilesets/tileset.png" type="Texture" index="0"></ext_resource>
 	<resource type="RectangleShape2D" path="local://4">
 		<real name="custom_solver_bias"> 0 </real>
@@ -14,6 +14,11 @@
 	<resource type="ConvexPolygonShape2D" path="local://6">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2_array name="points" len="3"> 			16, -16, 16, 16, -16, 16 </vector2_array>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://7">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 16, 16 </vector2>
 
 	</resource>
 	<main_resource>
@@ -479,14 +484,15 @@
 		<resource name="50/navigation"></resource>		<vector2 name="50/shape_offset"> 0, 0 </vector2>
 		<array name="50/shapes" len="0" shared="false">
 		</array>
-		<string name="51/name"> "1209" </string>
+		<string name="51/name"> "death_corner" </string>
 		<resource name="51/texture" external="0">  </resource>
 		<vector2 name="51/tex_offset"> 0, 0 </vector2>
 		<resource name="51/material"></resource>		<rect2 name="51/region"> 0, 160, 32, 32 </rect2>
 		<vector2 name="51/occluder_offset"> 16, 16 </vector2>
 		<resource name="51/occluder"></resource>		<vector2 name="51/navigation_offset"> 16, 16 </vector2>
 		<resource name="51/navigation"></resource>		<vector2 name="51/shape_offset"> 0, 0 </vector2>
-		<array name="51/shapes" len="0" shared="false">
+		<array name="51/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://7">  </resource>
 		</array>
 		<string name="52/name"> "11124" </string>
 		<resource name="52/texture" external="0">  </resource>
@@ -513,7 +519,8 @@
 		<vector2 name="54/occluder_offset"> 16, 16 </vector2>
 		<resource name="54/occluder"></resource>		<vector2 name="54/navigation_offset"> 16, 16 </vector2>
 		<resource name="54/navigation"></resource>		<vector2 name="54/shape_offset"> 0, 0 </vector2>
-		<array name="54/shapes" len="0" shared="false">
+		<array name="54/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://7">  </resource>
 		</array>
 		<string name="55/name"> "1209 3" </string>
 		<resource name="55/texture" external="0">  </resource>
@@ -559,15 +566,6 @@
 		<resource name="59/occluder"></resource>		<vector2 name="59/navigation_offset"> 16, 16 </vector2>
 		<resource name="59/navigation"></resource>		<vector2 name="59/shape_offset"> 0, 0 </vector2>
 		<array name="59/shapes" len="0" shared="false">
-		</array>
-		<string name="60/name"> "death_corner" </string>
-		<resource name="60/texture" external="0">  </resource>
-		<vector2 name="60/tex_offset"> 0, 0 </vector2>
-		<resource name="60/material"></resource>		<rect2 name="60/region"> 0, 160, 32, 32 </rect2>
-		<vector2 name="60/occluder_offset"> 16, 16 </vector2>
-		<resource name="60/occluder"></resource>		<vector2 name="60/navigation_offset"> 16, 16 </vector2>
-		<resource name="60/navigation"></resource>		<vector2 name="60/shape_offset"> 0, 0 </vector2>
-		<array name="60/shapes" len="0" shared="false">
 		</array>
 
 	</main_resource>

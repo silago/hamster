@@ -560,6 +560,15 @@
 		<resource name="59/navigation"></resource>		<vector2 name="59/shape_offset"> 0, 0 </vector2>
 		<array name="59/shapes" len="0" shared="false">
 		</array>
+		<string name="60/name"> "death_corner" </string>
+		<resource name="60/texture" external="0">  </resource>
+		<vector2 name="60/tex_offset"> 0, 0 </vector2>
+		<resource name="60/material"></resource>		<rect2 name="60/region"> 0, 160, 32, 32 </rect2>
+		<vector2 name="60/occluder_offset"> 16, 16 </vector2>
+		<resource name="60/occluder"></resource>		<vector2 name="60/navigation_offset"> 16, 16 </vector2>
+		<resource name="60/navigation"></resource>		<vector2 name="60/shape_offset"> 0, 0 </vector2>
+		<array name="60/shapes" len="0" shared="false">
+		</array>
 
 	</main_resource>
 </resource_file>
