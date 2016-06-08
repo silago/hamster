@@ -554,7 +554,7 @@
 		<string name="59/name"> "1209 6" </string>
 		<resource name="59/texture" external="0">  </resource>
 		<vector2 name="59/tex_offset"> 0, 0 </vector2>
-		<resource name="59/material"></resource>		<rect2 name="59/region"> 128, 160, 32, 32 </rect2>
+		<resource name="59/material"></resource>		<rect2 name="59/region"> 127, 160, 32, 32 </rect2>
 		<vector2 name="59/occluder_offset"> 16, 16 </vector2>
 		<resource name="59/occluder"></resource>		<vector2 name="59/navigation_offset"> 16, 16 </vector2>
 		<resource name="59/navigation"></resource>		<vector2 name="59/shape_offset"> 0, 0 </vector2>
